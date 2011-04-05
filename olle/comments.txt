@@ -1,0 +1,37 @@
+Alla rgb färgvärden på formatet ex: #f284dc
+
+Alla mått i pixels.
+
+Font storlekar i givna steg. small, medium, large, eller fler.
+	(Både Pixels och points kommer ju att bero på vårat typsnitt, och em funkar inte tror jag)
+
+Håll 1024 i bredd
+	Introsidan (welcome, gettingstarted) är bredare...
+
+Inga texter i bitmaps
+	Systemet sköter översättningen och texterna
+
+Färg start/stopp värden på knappar, titlebars, areor som har (vertikala?) gradients 
+	Ex: "Search", "CPV", "Search results in Prod...", "Getting started"
+
+Färgvärden på solida fält.
+
+Corner radius på knappar, titlebars, areor som har detta
+
+x,y storlek på knappar, titlebars, areor, ramar
+	Eller procentsats där det är applicerbart.
+	Ex: Vänsterkantens panel, "Welcome to..."
+
+Bitmap ikoner som 24 bit png med ev. transparans.
+	De jag sett är: Förstoringsglas, Verktyg, Close, Delete, Bock, Stjärna, Menypil, Next, Prev, First, Last
+	Ge dom rimliga namn.
+	Flaggor kan vi kanske köra våra?
+
+Ev. padding mellan ramar/areor
+
+Era övriga kommentarer
+	Ex: Dropshadows, färger varannan rad i alla listor?, 
+
+En utökad fungerande mockup som har (screenshot på) allt (Fireworks?).
+
+
