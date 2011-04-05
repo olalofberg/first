@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" language="JavaScript" src="jquery-1.4.3.js"></script>
+		<style type="text/css">
+		body, html
+		{
+			background-repeat:no-repeat;
+		}
+
+		.gauge
+		{
+			position:absolute;
+			padding:0px;
+			margin:0px;
+			font-family:arial;
+			text-align:right;
+			font-size:40px;
+			background-color:#e0ffe0;
+			color:#207020;
+			border:5px inset #808080;
+			width:150px;
+		}
+
+		.lightinput
+		{
+			border:1px inset #808080;
+			width:50px;
+			text-align:right;
+		}
+		</style>
+		<!-- script type="text/javascript" language="JavaScript" >self.resizeTo('860','750');</script -->
+		<title>ITEST</title>
+	</head>
+	
+	<body>
+		<input type="text" id="temp1" class="gauge" value="4.14" style="left:100px;top:100px"/>
+		<div id="input1" class="gauge" style="left:810px;top:610px">
+			<input class="lightinput" onchange="startAuto()" type="text" width="50" value="4" id="heatexenergy" />kWh
+		</div>
+ <script type="text/javascript" language="javascript">
+      //<![CDATA[
+
+	function startAuto()
+	{
+		document.getElementById("temp1").value = "234.0";
+	}
+
+	function stopAuto()
+	{
+	}
+
+	  //]]>
+	   </script>
+	   <button onclick="startAuto();">start</button>
+	   <button onclick="stopAuto();">stop</button>
+	</body>
+</html>
